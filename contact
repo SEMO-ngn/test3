@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="uta-8">
+        <title>WBC Cafe-CONTACT</title>
+        <meta name="description" content="ブレンドコーヒーとヘルシーな
+        オーガニックフードを提供するカフェ">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+ <!-- css -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="imege/png" href="images/favicon.png">
+
+
+    </head>
+    <body>
+         <div id="contact" class="big-bg">
+          <header class="page-header wrapper">
+            <h1><a href="index.html"><img class="logo" src="images/logo.svg"
+                 alt="WBCカフェホーム"> </a> </h1>
+                 <nav>
+                    <ul class="main-nav">
+                      <li><a href="news.html">News</a> </li>
+                      <li><a href="menu.html">Menu</a> </li>
+                      <li><a href="contact.html">contact</a> </li>
+                    </ul>
+                 </nav>
+          </header>
+          <div class="warapper">
+            <h2 class="page-title">Contact</h2>
+            <form action="#">
+               <div>
+                  <label for="name">お名前</label>
+                  <input type="text" id="name" name="you-name">
+               </div>
+
+               <div>
+                  <label for="email">メールアドレス</label>
+                  <input type="email" id="email" name="you-email">
+               </div>
+
+               <div>
+                  <label for="message">メッセージ</label>
+                  <textarea id="message" name="your-massage"></textarea>
+               </div>
+
+               <input type="submit" class="button" value="送信">
+
+            </form>
+            <iframe
+               src="https://docs.google.com/forms/d/e/1FAIpQLScu9YxKCI0vwrej2TE6nGojJqzdEkwglrLfVjI6ZBLSKhov7g/viewform?embedded=true"
+               width="640" height="999" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
+          </div><!-- /.wrapper -->
+         </div><!-- /#contact -->
+         <section id="location">
+            <div class="wrapper">
+               <div class="location-info">
+                  <h3 class="sub-title">カフェ 東駅前店</h3>
+                  <p>
+                     住所： 東京都〇〇区<br>
+                     〇〇〇〇〇〇〇 000-22-1<br>
+                     〇〇〇〇<br>
+                     電話： 03-1111-1111<br>
+                     営業時間： 10:00〜20:00<br>
+                     休日：水曜
+                  </p>
+
+               </div><!-- /.location-info -->
+               <div class="location-map">
+                  <iframe
+                     src="https://www.google.com/maps/d/edit?mid=1zQWeh_IBFc4ySyHeEKIM_Nk7VKOWxGo&usp=sharing"
+                     width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                     
+               </div><!-- /.location-map -->
+            </div><!-- /.wrapper -->
+         </section><!-- /#location -->
+
+         <section id="sns">
+            <div class="wrapper">
+               <div class="sns-box">
+                  <h3 class="sub-title">Facebook</h3>
+                  <iframe
+                     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMOTHER2-178451512194175%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                     width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+                     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+               </div>
+               <div class="sns-box">
+                  <h3 class="sub-title">Twitter</h3>
+                  <a class="twitter-timeline" data-width="300" data-height="300"
+                     href="https://twitter.com/Nintendo?ref_src=twsrc%5Etfw">Tweets by Nintendo</a>
+                  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+               </div>
+               <div class="sns-box">
+                  <h3 class="sub-title">YouYube</h3>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/yFM0J9NudMw" title="YouTube video player"
+                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen></iframe>
+
+               </div>
+            </div><!-- /.wrappre -->
+         </section><!-- /#sns -->
+
+
+
+
+        <footer>
+            <div class="wrapper">
+                <p><small>&copy; 2019 manabox</small></p>
+            </div>
+        </footer>
+    </body>
+</html>
